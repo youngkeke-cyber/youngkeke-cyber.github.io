@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>돌봄온길 — 가족돌봄 청소년·청년 복지 내비게이션</title>
+<meta name="description" content="가족을 돌보는 청소년(13~18세)·청년(19~34세)을 위한 복지 내비게이션. 다섯 가지 질문에 답하면 전국 공통 제도와 우리 지역 혜택을 쉬운 말로 정리하고, 신청이 끝날 때까지 함께 안내합니다.">
+<meta name="theme-color" content="#12263D">
+<link rel="canonical" href="https://youngkeke-cyber.github.io/">
+
+<!-- Open Graph / 카카오톡·페이스북 공유 -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="돌봄온길">
+<meta property="og:title" content="돌봄온길 — 가족돌봄 청소년·청년 복지 내비게이션">
+<meta property="og:description" content="복지 앞에서 길을 잃지 않도록, 우리 지역·내 상황에 맞는 지원을 쉬운 말로 안내하고 신청까지 동행합니다.">
+<meta property="og:url" content="https://youngkeke-cyber.github.io/">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="돌봄온길 — 가족돌봄 청소년·청년 복지 내비게이션">
+<meta name="twitter:description" content="우리 지역·내 상황에 맞는 복지 지원을 쉬운 말로 안내하고 신청까지 동행합니다.">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a href="#diagnose" class="skip-link">본문(맞춤 진단)으로 바로가기</a>
+
+<header>
+  <div class="header-in">
+    <div class="logo serif">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#C9922F" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 20 Q 8 14 8 10 Q 8 6 13 5 Q 18 4 19 2" stroke-dasharray="1 4"/><circle cx="4" cy="20" r="2" fill="#C9922F" stroke="none"/><circle cx="19" cy="2.5" r="2" fill="#C9922F" stroke="none"/></svg>
+      돌봄온길 <small>가족돌봄 청소년·청년 복지 내비게이션</small>
+    </div>
+    <nav aria-label="주요 메뉴">
+      <a href="#diagnose">맞춤 진단</a>
+      <a href="#results">내 결과</a>
+      <a href="#roadmap">신청 동행</a>
+      <a href="#dict">쉬운 말 사전</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<div class="hero">
+  <div class="hero-in">
+    <div class="eyebrow">Family Young Carers · Welfare Access</div>
+    <h1 class="serif">복지 앞에서 길을 잃지 않도록,<br><em>우리 지역, 내 상황에 맞는 길</em>을 안내합니다</h1>
+    <p class="lead">가족을 돌보느라 정작 자신을 돌볼 시간이 없는 청소년(13~18세)과 청년(19~34세)을 위해 만들었어요.
+    다섯 가지 질문에 답하면 전국 공통 제도와 <b>우리 지역에서만 받을 수 있는 혜택</b>까지 골라 쉬운 말로 정리하고, 신청이 끝날 때까지 함께 걷습니다.</p>
+    <button class="cta" onclick="document.getElementById('diagnose').scrollIntoView()">1분 맞춤 진단 시작하기 →</button>
+    <svg class="path-svg" viewBox="0 0 400 300" fill="none" aria-hidden="true">
+      <path d="M10 280 Q 90 220 90 160 Q 90 100 170 90 Q 250 80 250 30" stroke="#EFC98A" stroke-width="3" stroke-dasharray="2 14" stroke-linecap="round"/>
+      <circle cx="10" cy="280" r="7" fill="#EFC98A"/>
+      <circle cx="250" cy="30" r="7" fill="#EFC98A"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ============ TRAIL ============ -->
+<div class="trail" id="trail">
+  <div class="node on" data-step="1"><div class="dot"></div><span>① 맞춤 진단</span></div>
+  <div class="link" id="link1"></div>
+  <div class="node" data-step="2"><div class="dot"></div><span>② 한 장 요약</span></div>
+  <div class="link" id="link2"></div>
+  <div class="node" data-step="3"><div class="dot"></div><span>③ 신청 동행</span></div>
+</div>
+
+<!-- ============ STEP 1 : QUIZ ============ -->
+<section id="diagnose">
+  <div class="sec-head">
+    <div class="eyebrow">Solution 1 · 맞춤 큐레이션</div>
+    <h2 class="serif">대상과 지역부터 물어보고,<br>딱 맞는 지원만 좁혀 드려요</h2>
+    <p>지역마다 복지 정책이 다르기 때문에 사는 지역을 꼭 여쭤봐요. 청소년인지 청년인지에 따라 연결되는 제도와 질문이 달라집니다.</p>
+  </div>
+
+  <div class="quiz-wrap">
+    <div class="quiz-progress"><div class="bar" id="qbar"></div></div>
+    <div class="quiz-body">
+      <div class="q-count" id="qcount">질문 1 / 5</div>
+      <div class="q-title" id="qtitle"></div>
+      <div class="q-help" id="qhelp"></div>
+      <div class="opts" id="qopts"></div>
+      <div class="quiz-nav">
+        <button class="btn-ghost" id="qprev">← 이전</button>
+        <button class="btn-main" id="qnext" disabled>다음 →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STEP 2 : RESULTS ============ -->
+<section id="results">
+  <div class="sec-head">
+    <div class="eyebrow">Solution 2 · 쉬운 언어 한 장 요약</div>
+    <h2 class="serif">지금 나에게 해당하는 지원,<br>어려운 말 없이 한 장으로</h2>
+    <p>누가·얼마나·서류·어디서·언제를 카드 한 장으로 압축했어요. <span class="term" tabindex="0">밑줄 친 용어<span class="tip"><b>이렇게 생긴 단어</b>에 마우스를 올리면(모바일은 터치) 쉬운 말 풀이가 떠요.</span></span>에는 쉬운 말 풀이가 붙고, "세부 지원 항목"을 누르면 무엇을 얼마나 받는지 더 자세히 볼 수 있어요.</p>
+  </div>
+  <div class="result-note" id="resultNote"></div>
+  <div class="cards" id="cardList"></div>
+
+  <div class="region-head" id="regionHead"></div>
+  <div class="cards" id="regionList"></div>
+</section>
+
+<!-- ============ STEP 3 : ROADMAP ============ -->
+<section id="roadmap">
+  <div class="sec-head">
+    <div class="eyebrow">Solution 3 · 신청 동행 로드맵</div>
+    <h2 class="serif">신청이 끝날 때까지,<br>단계별로 함께 걸어요</h2>
+    <p>서류 준비부터 결과 확인까지 단계별로 안내하고, 각 단계에서 필요한 정부 사이트(복지로·정부24·청년ON 등)로 바로 이동합니다. 막히면 진단 결과에 맞춰 매칭된 동행 코디네이터에게 즉시 연결하세요.</p>
+  </div>
+  <div class="rm-box">
+    <h3 class="serif" id="rmTitle"></h3>
+    <div class="sub" id="rmSub"></div>
+    <div class="rm-progress">
+      <div class="track"><div class="fill" id="rmFill"></div></div>
+      <span id="rmPct">0%</span>
+    </div>
+    <div class="steps" id="rmSteps"></div>
+    <div id="coordBox"></div>
+  </div>
+</section>
+
+<!-- ============ DICTIONARY ============ -->
+<div class="dict" id="dict">
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">부록 · 용어 대체 사전</div>
+      <h2 class="serif">공고문의 어려운 말,<br>생활 언어로 바꿔 읽어요</h2>
+    </div>
+    <div class="dict-grid" id="dictGrid"></div>
+  </section>
+</div>
+
+<footer>
+  <b>돌봄온길</b> — 가족돌봄 청소년·청년 복지지원 접근성 개선 파일럿 서비스<br>
+  IBC 19기 · 돌봄 2팀 · PROBLEM TREE → SOLUTION TREE<br>
+  제도명·금액·지역 사업은 이해를 돕기 위한 예시로, 실제 기준·운영 여부는 복지로·정부24·청년ON 및 주민센터에서 확인이 필요합니다.
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
