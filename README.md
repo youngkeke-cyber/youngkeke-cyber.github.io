@@ -6,7 +6,7 @@
 
 > IBC 19기 · 돌봄 2팀 — PROBLEM TREE → SOLUTION TREE 파일럿 서비스
 
-🔗 **배포 주소:** https://youngkeke-cyber.github.io/
+🔗 **배포 주소:** https://dolbomongil.com/ (GitHub Pages, 커스텀 도메인)
 
 ## 세 가지 솔루션
 
