@@ -2,7 +2,7 @@ name: Deploy static site to GitHub Pages
 
 on:
   push:
-    branches: ["main", "claude/prototype-webpage-build-cvrooj"]
+    branches: ["main", "claude/prototype-webpage-build-cvrooj", "claude/abc-care-log-github-pages-tz57qx"]
   workflow_dispatch:
 
 # GITHUB_TOKEN 권한: Pages 배포에 필요
